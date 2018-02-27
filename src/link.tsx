@@ -24,12 +24,10 @@ export class Link extends React.Component<MyProps, MyState> {
     }
 
     _onMouseEnter() {
-        console.log('_onMouseEnter');
         this.setState({class: STATUS.HOVERED});
     }
 
     _onMouseLeave() {
-        console.log('_onMouseLeave');
         this.setState({class: STATUS.NORMAL});
     }
 
@@ -45,4 +43,4 @@ export class Link extends React.Component<MyProps, MyState> {
             </a>
         );
     }
-}   
+}
