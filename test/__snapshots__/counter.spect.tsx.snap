@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter test 1`] = `
+<Counter>
+  <div>
+    <h1>
+      counter
+    </h1>
+    <button
+      onClick={[Function]}
+    >
+      click me
+    </button>
+    <div>
+      3
+    </div>
+  </div>
+</Counter>
+`;
